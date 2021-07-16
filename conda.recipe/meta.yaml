@@ -23,3 +23,10 @@ requirements:
     - requests
     - appdirs
     - earthengine-api
+
+test:
+  imports:
+    - rabpro
+
+about:
+  home: https://github.com/jonschwenk/rabpro
