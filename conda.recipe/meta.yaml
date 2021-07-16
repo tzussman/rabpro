@@ -1,0 +1,25 @@
+package:
+  name: rabpro
+  version: "0.2"
+
+source:
+  path: ../rabpro
+
+requirements:
+  build:
+    - python >= 3.7
+    - setuptools
+  run:
+    - python >= 3.7
+    - gdal
+    - numpy
+    - geopandas=0.7.0
+    - scikit-image
+    - opencv
+    - matplotlib
+    - pyproj
+    - shapely
+    - rivgraph=0.3
+    - requests
+    - appdirs
+    - earthengine-api
