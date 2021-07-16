@@ -5,15 +5,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="rabpro",
-    version="0.0.1",
+    version="0.2",
     author="Example Author",
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jschwenk/rabpro",
+    url="https://github.com/jonschwenk/rabpro",
     project_urls={
-        "Bug Tracker": "https://github.com/jschwenk/rabpro/issues",
+        "Bug Tracker": "https://github.com/jonschwenk/rabpro/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
