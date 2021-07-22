@@ -3,14 +3,17 @@ package:
   version: "0.2"
 
 source:
-  path: ../rabpro
+  path: ..
 
 requirements:
   build:
-    - python >= 3.7
+    - python
     - setuptools
+  host:
+    - python
+    - gdal
   run:
-    - python >= 3.7
+    - python
     - gdal
     - numpy
     - geopandas=0.7.0
